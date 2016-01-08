@@ -10,5 +10,5 @@ npm install nbschema
 
 ## Note for webpack users
 
-You'll need to include the `json-loader`, as this package requires the schema JSONs directly.
+You'll need to include the `json-loader`, as this package requires the JSON schemas directly.
 
