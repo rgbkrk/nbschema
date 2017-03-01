@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "description": "IPython Notebook v4.0 JSON schema.",
+    "description": "Jupyter Notebook v4.2 JSON schema.",
     "type": "object",
     "additionalProperties": false,
     "required": ["metadata", "nbformat_minor", "nbformat", "cells"],
@@ -373,7 +373,7 @@
                   "$ref": "#/definitions/misc/multiline_string"
                 },
                 "patternProperties": {
-                    "^application/([a-zA-Z0-9.]+\\+)?json$": {
+                    "^application/(.*\\+)?json$": {
                         "description": "Mimetypes with JSON output, can be any type"
                     }
                 }
